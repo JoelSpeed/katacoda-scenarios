@@ -1,4 +1,5 @@
-This is your first step.
+In this step, we will explore the configuration for Dex before installing it
+into the Kubernetes cluster.
 
 ## Task
 
