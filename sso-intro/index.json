@@ -23,8 +23,9 @@
     }
   },
   "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "Sign In", "port": 5555}],
     "uilayout": "terminal",
-    "uimessage1": ""
   },
   "backend": {
     "imageid": "kubernetes"
