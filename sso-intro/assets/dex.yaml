@@ -28,6 +28,10 @@ spec:
           items:
           - key: config.yaml
             path: config.yaml
+      tolerations:
+      - key: node-role.kubernetes.io/master
+        operator: Exists
+        effect: NoSchedule
 ---
 kind: ConfigMap
 apiVersion: v1
