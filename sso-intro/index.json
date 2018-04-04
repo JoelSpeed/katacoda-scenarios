@@ -10,6 +10,12 @@
           "file": "dex.yaml",
           "target": "~/"
         }
+      ],
+      "client": [
+        {
+          "file": "dex.yaml",
+          "target": "~/"
+        }
       ]
     },
     "steps": [
